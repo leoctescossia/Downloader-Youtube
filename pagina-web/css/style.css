@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: white;
+    transition: 2s;
+}
+
+.cabecalho ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+    font-size: 12pt;
+    align-items: center;
+    text-align: center;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+.cabecalho a:hover{
+    
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.logo, .cabecalho{
+    margin-top: 1rem;
+}
+.logo h1{
+    cursor: pointer;
+}
+.topo{
+    background-image: url('tokyo-station-densha.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(179, 130, 130);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 700px;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 17pt;
+    color: white;
+    margin: 10rem auto;
+    gap: 0.5rem;
+}
+.bem_vindo{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem auto;
+}
+.link input{
+    width: 400px;
+    height: 50px;
+    border-radius: 2rem;
+    border: none;
+    text-align: initial;
+    padding-left: 1.5rem;
+    font-size: 12pt;
+}
+.link input:focus{
+    transition: 0.2s;
+    outline: #c02b2b 2px solid;
+}
+.link button{
+    width: 140px;
+    height: 50px;
+    border-radius: 2rem;
+    font-size: 12pt;
+    border: #c02b2b 1px solid;
+}
+.link button:hover{
+    transition: 0.5s;
+    background-color: #c02b2b;
+    color: white;
+    cursor: pointer;
+    border: white 1px solid;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20rem;
+    text-align: center;
+    gap: 0.5rem;
+    background-color: darksalmon;
+    border-radius: 0.5rem;
+    height: 100px;
+}
+section{
+    margin: 3rem;
+    color: #FFFAF0;
+    background-color: rgb(250, 87, 58);
+    width: 38%;
+    height: 600px;
+    border-radius: 1rem;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+    gap: 1.5rem;
+}
+.sobre span{
+    font-size: 18pt;
+}
+.sobre p{
+    width: 90%;
+    font-size: 11.5pt;
+}
+.sobre img{
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+#direitos{
+    font-size: 9pt;
+}
+.informacao{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.texto{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+.texto h3{
+    font-size: 19pt;
+    text-align: center;
+    width: 100%;
+}
+.texto span{
+    font-size: 12pt;
+    color: red;
+    text-align: justify;
+}
+#border{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-block-color: red;
+    color: white;
+}
+.convertor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem auto;
+    font-size: 18pt;
+}
+.convertor-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+.formato{
+    color: white;
+    background-color: rgb(250, 87, 58);
+    height: 250px;
+    width: 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    justify-content: center;
+    gap: 2rem;
+}
+.mps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mps-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.mps #mp3{
+    padding-inline-end: 0.7rem;
+    
+}
+.formato span{
+    font-size: 20pt;
+}
+.formato button{
+   border-radius: 1rem;
+   width: 150px;
+   height: 40px;
+   border: 2px solid rgb(255, 0, 0);
+   background: none;
+   color: #FFFAF0;
+   text-align: center;
+   font-size: 14pt;
+}
+
+.formato button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid #FFFAF0;
+    background-color: rgb(255, 0, 0);
+ }
+.rodape{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    color: #d30000;
+    font-size: 11pt;
+}
+.rodape span{
+    cursor: pointer;
+}
+.rodape span:hover{
+    opacity: 60%;
+    border-bottom: 1px solid red;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+#logo_img{
+    width: 60px;
+    height: auto;
+}
+
+.tipos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17pt;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.tipos .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.downloads{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 0.7rem;
+}
+.downloads-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    padding-left: 6rem;
+    margin: auto;
+}
+.downloads #img1{
+    width: 550px;
+    border-radius: 2rem;
+    filter: brightness(70%);
+}
+.downloads-2 #img1{
+    width: 700px;
+    border-radius: 2rem;
+    filter: brightness(70%);
+}
+
+.downloads #img2 , .downloads-2 #img2{
+    width: 350px;
+    border-radius: 2rem;
+    filter: brightness(75%);
+}
+#figcaption{
+    display: inline-block;
+    position: relative;
+}
+#figcaption span{
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: white;
+    padding-right: 11rem;
+    text-shadow: 0px 0px 5px black;
+}
+#figcaption #span2{
+    position: absolute;
+    top: 230px;
+    left: 90px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+#figcaption1 #span11{
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+#figcaption1{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 21rem;
+}
